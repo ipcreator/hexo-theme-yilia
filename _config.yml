@@ -2,25 +2,32 @@
 
 menu:
   主页: /
-  随笔: /tags/随笔/
+  归档: /archives
 
+  #个人: /tags/个人/
+
+  #个人: /categories/个人/
+  #技术: /categories/技术/
+  #专利: /categories/专利/
+  #创新: /categories/创新/
+  #管理: /categories/管理/
+  
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/ipcreator"
+  weibo: "http://weibo.com/zhuxuanlvzxl/home?wvr=5&lf=reg"
+  zhihu: "https://www.zhihu.com/people/AndyWang18/activities"
+  douban: "https://www.douban.com/people/1390598/"
+  #mail: "mailto:ipcreator@yeah.net"
+  rss: /atom.xml
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
-  #douban: "#"
-  #mail: "mailto:litten225@qq.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
   #linkedin: "#"
-
-rss: /atom.xml
+  #rss: "#"
 
 # 是否需要修改 root 路径
 # 如果您的网站存放在子目录中，例如 http://yoursite.com/blog，
@@ -42,28 +49,32 @@ open_in_new: false
 # 请在需要打赏的文章的md文件头部，设置属性reward: true
 
 # 打赏基础设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 1
 # 打赏wording
-reward_wording: '谢谢你请我吃糖果'
+reward_wording: '谢谢您的打赏！'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: 
+alipay: http://okkntqe2h.bkt.clouddn.com/alipay_cr.jpg
 # 微信二维码图片地址
 weixin: 
 
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.png
+#favicon: /favicon.png
+
+favicon: /img/personalphoto.jpg
 
 #你的头像url
-avatar:
+avatar: /img/personalphoto.jpg
+#avatar: http://okkntqe2h.bkt.clouddn.com/personalphoto.jpg
 
 #是否开启分享
 share_jia: true
 
 #是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
-duoshuo: false
+duoshuo: true
+duoshuo-key: ipcreator
 
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
@@ -75,7 +86,7 @@ style:
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: false
+  showTags: true
 
 # 智能菜单
 # 如不需要，将该对应项置为false
@@ -88,11 +99,29 @@ smart_menu:
   aboutme: '关于我'
 
 friends:
-  友情链接1: http://localhost:4000/
-  友情链接2: http://localhost:4000/
-  友情链接3: http://localhost:4000/
-  友情链接4: http://localhost:4000/
-  友情链接5: http://localhost:4000/
-  友情链接6: http://localhost:4000/
+  你的生命有什么可能: https://book.douban.com/subject/25870384/
+  个体崛起的时代: http://mt.sohu.com/20161026/n471374646.shtml
+  成为一个超级个体: http://blog.sina.com.cn/s/blog_4b09eac00102wnfy.html
+  人工智能的黄金时代: http://gelonghui.com/p/101767.html
+  人人都是工程师: http://lixiaolai.com/2016/06/12/makecs-preface/
+  人人都能用英语: http://zhibimo.com/read/xiaolai/everyone-can-use-english/  
+  把时间当作朋友: http://zhibimo.com/read/xiaolai/ba-shi-jian-dang-zuo-peng-you/index.html
+  七年就是一辈子: http://zhibimo.com/read/xiaolai/reborn-every-7-years/
+  退休感言: http://news.mbalib.com/story/12504
+  选择的智慧: http://www.360doc.com/content/14/1206/17/15680008_430856157.shtml  
+  此生未完成: https://book.douban.com/subject/6397275/
+  向死而生: https://book.douban.com/subject/26422275/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+
+#展示图片
+fancybox: true
+
+#标签云
+tagcloud: true
+
+swift_search:
+  enable: true
+
+
+
+aboutme: 自知者明<br>自胜者强<br>不忘初心<br>方得始终
